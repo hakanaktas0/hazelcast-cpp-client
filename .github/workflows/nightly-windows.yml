@@ -31,7 +31,7 @@ jobs:
           - toggle: ON
             name: 'SSL'
 
-    runs-on: windows-latest
+    runs-on: windows-2019
     name: >-
       Windows
       (${{ matrix.arch.address_model }}, ${{ matrix.build_type }}, ${{ matrix.shared_libs.name }}, ${{ matrix.with_openssl.name }})
