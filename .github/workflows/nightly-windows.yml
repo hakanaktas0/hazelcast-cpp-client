@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 2 * * *'
-env:
-  HAZELCAST_ENTERPRISE_KEY: UNLIMITED_LICENCE#99Nodes#8wdHWu6kSTC0YJniMNq9lDZAyKbPG15QXgjfEmB2UO48091999190010091111110003119019150000000010
+
 jobs:
   nightly-Windows:
     strategy:
